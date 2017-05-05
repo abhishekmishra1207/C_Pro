@@ -1,0 +1,19 @@
+#include<stdio.h>
+main(){
+	int countSpace,c,countTab,countNewLine;
+	countSpace=0;
+	countTab=0;
+	countNewLine=0;
+	while((c=getchar())!='0'){ //this curley braces is important , i missed it so the prg was giving wrong result
+		if(c==' '){
+		++countSpace;
+		}
+		if(c=='\t'){
+		++countTab;
+		}
+		if(c=='\n'){
+		++countNewLine;
+		}
+	}
+	printf("%d\n%d\n%d\n",countSpace,countTab,countNewLine);
+}
