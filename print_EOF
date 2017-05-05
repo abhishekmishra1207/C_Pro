@@ -1,0 +1,4 @@
+#include<stdio.h>
+main(){
+	printf("%d",EOF); //this why coz EOF is int
+}
