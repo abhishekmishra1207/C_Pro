@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+	int c,nl;
+	nl=0;
+	while((c=getchar())!='0')//o instead of EOF as EOF does not work for me
+		if(c=='\n')
+		++nl;
+	printf("%d\n",nl);
+}
