@@ -1,0 +1,16 @@
+#include<stdio.h>
+//main(){
+//	long nc;
+//	nc=0;
+//	while(getchar() !='0'){
+//		++nc;
+//	printf("%ld",nc);
+//	}
+//}
+//This program will count the characters
+main(){
+	double nc;
+	for(nc=0;getchar()!='0';++nc)
+		; //null statement for for loop. As for is supposed to have a loop body.
+	printf("%.0f\n",nc);
+}
