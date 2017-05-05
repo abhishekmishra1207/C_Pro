@@ -1,8 +1,8 @@
 #include<stdio.h>
 main(){
-	int c;
+	int c; //This has to be int and not char since the value of EOF cannot be hold by a char and int is large enough to hold the value
 	c=getchar();
-	while(c!= '0'){
+	while(c!= '0'){   //this is when it find numeric 0
 		putchar(c);
 		c=getchar();
 	}
